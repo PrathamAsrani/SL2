@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* HEADER */
+
+HEADER {
+  width: 100%;
+  min-height: 8vw;
+  background-color: rgb(253, 250, 160);
+  padding-left: 1vw;
+  padding-right: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LOGO {
+  margin-top: 2vw;
+}
+.LOGO img {
+  height: 7vw;
+}
+.innerBox {
+  min-height: 8vw;
+  width: 90%;
+  /* border: 2px solid black; */
+  margin-left: 1vw;
+  border-radius: 1vw;
+  padding: 1vw 2vw;
+  background-color: rgb(255, 225, 0);
+  margin: 0.5vw;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15vw;
+}
+
+.arange {
+  padding-left: 9vw;
+}
+
+.rightSec {
+  font-size: 1.2rem;
+  inline-size: 10vw;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.45);
+  margin: 0.6vw;
+  width: 10vw;
+  height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.rightSec:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  transform: scale(1.05);
+}
+
+.rightSecText {
+  font-size: 1.5vw;
+}
+
+/*main*/
+
+main {
+  margin: 1vw 5vw;
+}
+
+#adminssion {
+  padding: 0.5vw 2.5vw;
+  font-size: 2vw;
+  font-weight: 700;
+  border: 2px solid black;
+  border-radius: 0.5vw;
+}
+
+#adminssion:hover {
+  cursor: grab;
+  transform: scale(1.05);
+  background-color: rgb(255, 225, 0);
+  font-weight: 900;
+  font-size: 2.5vw;
+}
+
+.admBut {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul,
+ol {
+  padding-left: 5vw;
+  padding-top: 1vw;
+}
